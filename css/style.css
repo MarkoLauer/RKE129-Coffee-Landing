@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+}
+
+.intro-image {
+    background-attachment: fixed; /* Parallax-effect*/
+    background-image: url('../img/coffee2.jpg');
+    background-size: cover;
+    background-position: bottom;
+    height: 600px;
+    display: flex; /*vanem viis kuidas kohandada telefoni formaadile. Joondamine elemendi lahtrisse*/
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-image_link a {
+    display: inline-block;
+    font-size: 3rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #e6d5bb8e;
+    padding: 1rem;
+    color: #45555c;
+    border: 2px solid #e6d5bb;
+    transition: all 0.5s ease-in-out; /*sujuvamad animatsioonid*/
+}
+
+.intro-image_link a:hover {
+    transform: scale(1.2);
+}
+
+.intro-text {
+    background-color: #efe0cd;
+    color: #45555c;
+    display: flex; /*vanem viis kuidas kohandada telefoni formaadile. Joondamine elemendi lahtrisse*/
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding: 0 15rem;
+}
+
+.intro-text_textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+
+}
+.quality-image {
+    background-attachment: fixed; /* Parallax-effect*/
+    background-image: url("../img/coffee3.webp");
+    background-size: cover;
+    background-position: bottom;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.quality-image_link a {
+    display: inline-block;
+    font-size: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #95877cb6;
+    padding: 1rem;
+    color: #e6e3e2;
+    border: 2px solid #95877c6c;
+    transition: all 0.5s ease-in-out; /*sujuvamad animatsioonid*/
+
+}
+.quality-image_link a:hover {
+    transform: scale(1.2);
+}
+
+.quality-text {
+    background-color: #a09fa1;
+    color: #64767e;
+    display: flex; /*vanem viis kuidas kohandada telefoni formaadile. Joondamine elemendi lahtrisse*/
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding: 0 15rem;
+}
+
+.quality-text_textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.origin-image{
+    background-attachment: fixed; /* Parallax-effect*/
+    background-image: url("../img/coffee1.webp");
+    background-size: cover;
+    background-position: right;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.origin-text {
+    background-color: #dcd0d4;
+    color: #98513b;
+    display: flex; /*vanem viis kuidas kohandada telefoni formaadile. Joondamine elemendi lahtrisse*/
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    padding: 0 10rem;
+}
+
+.origin-text_textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+
+.footer {
+    height: 150px;
+    background-color: #95877c;
+    color: #493c18;
+    font-size: 1rem;
+    padding-top: 2rem;
+}
+
+.footer ul li {
+    display: inline-block; /* lingid ühel joone*/
+    margin: 1rem;
+}
+
+.footer ul li a {
+    color: #493c18;
+    text-decoration: none;
+}
+
+.footer ul li:hover {
+    transform: scale(1.5)
+}
